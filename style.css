@@ -1,0 +1,966 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .header {
+    height: 10vh;
+    background: #000000;
+    background-size: cover;
+    display: flex;
+    width: 80%;
+}
+
+.header .left4 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header .right4 {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.left4 p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.left4 .vertline {
+    width: 1px;
+    height: 8px;
+    border: 1px solid #969696;
+}
+
+
+.header .right4 a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #969696;
+    text-decoration: none;
+}
+
+.right4 .mask {
+    display: none;
+}
+
+.main {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0F0F0F;
+    height: 10%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header .container div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+header a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+.burgerMenu img {
+    width: 40px;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+main {
+    height: 90%;
+    background-image: url(./background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main div {
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main hr {
+    width: 60%;
+    height: 1px;
+    background-color: white;
+    margin: 7px 0;
+}
+
+main h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 50%;
+    margin-top: 80px;
+}
+
+.season {
+    height: 90vh;
+    display: flex;
+}
+
+.season .left {
+    width: 55%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.season .right {
+    width: 100%;
+    background-image: url(./Rectangle\ 8.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.clocks {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 100%;
+}
+
+.clocks p {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.clock {
+    width: 30%;
+}
+
+.clock div {
+    background-color: #191b1c;
+    width: 100%;
+    padding: 55px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock img {
+    width: 90%;
+}
+
+.season .left h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.season .left h1::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    top: 40px;
+    left: 30%;
+}
+
+.season .right h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.season .right h1::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    top: 40px;
+    left: 30%;
+}
+
+.season .right button {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 80px;
+}
+
+/* collection section start */
+.collection {
+    display: flex;
+    height: 75vh;
+}
+
+.collection .left {
+    width: 45%;
+    background-image: url(./Rectangle\ 9\ \(1\).svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.collection .right {
+    width: 55%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.collection h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.collection .hr {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.collection p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 60%;
+}
+
+.collection button {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    width: 40%;
+    height: 40px;
+}
+
+/* new section start */
+.new {
+    background: #000000;
+    background-size: cover;
+    height: 160vh;
+    display: flex;
+}
+
+.new .total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    border: white;
+    position: relative;
+    left: 20px;
+
+}
+
+.one {
+    background-color: brown;
+    text-align: center;
+}
+
+.new .total .square {
+    display: none;
+}
+
+.new .total .image {
+    display: none;
+}
+
+.watch div {
+    background-color: #191b1c;
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 23px;
+}
+
+.new .upper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+
+}
+
+.new .lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.new h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.watch p {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.new .hr1 {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+/* brand section start */
+.brands {
+    height: 50vh;
+    background: #0F0F0F;
+    display: flex;
+}
+
+.brands .jewelry .container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.brands .jewelry {
+    width: 100%;
+    align-self: center;
+}
+
+.jewelry .brand {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.jewelry h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.jewelry .hr3 {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 40px;
+}
+
+.jewelry .logo {
+    padding-left: 30px;
+}
+
+/* footer section start */
+.footer {
+    background-image: url(./Rectangle\ 15.svg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+}
+
+.footer .info {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+}
+
+.info .shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 100%;
+    text-align: left center;
+    padding-left: 50px;
+}
+
+.info .categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 100%;
+    margin-top: -17px;
+
+}
+
+.info .send {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 100%;
+
+}
+
+.shop h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.shop p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.categories h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.categories .bracelets a {
+    background: #0F0F0F;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.categories .bracelets {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.bracelets .watches {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bracelets.cufflinks {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* .cufflinks button{
+    padding-right: 20px;
+} */
+
+.send h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.send p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.send input {
+    width: 210px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.send a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #0F0F0F;
+    width: 140px;
+    height: 41px;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.send .join {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    height: 8vh;
+    display: flex;
+    background: #0F0F0F;
+    background-size: cover;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.container .left2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container .right2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container .left2 p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+.container .right2 a {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #D0D0D0;
+}
+
+
+
+@media (max-width:576px) {
+    header .container .left4 {
+        display: none;
+    }
+
+    .header .right4 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .right4 .mask {
+        display: block;
+    }
+
+    .burgerMenu {
+        display: block;
+    }
+
+    header .container>div {
+        display: none;
+    }
+
+    main>p {
+        width: 90%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .season {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .season .left {
+        width: 100%;
+    }
+
+    .season .left h1 {
+        font-size: 34px;
+        padding-top: 30px;
+    }
+
+    .season.right {
+        height:70vh;
+        background-image: url(./Rectangle\ 8.svg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .season .right h1 {
+        font-size: 32px;
+    }
+
+    .clocks {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .collection,
+    .season {
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .clock {
+        width: 100%;
+    }
+
+    .clock img {
+        width: 100%;
+    }
+
+    .collection .left {
+        width: 100%;
+        background-image: url(./Rectangle\ 9\ \(1\).svg);
+        background-position: center;
+        height: 70vh;
+        order: 2;
+    }
+
+    .collection .right {
+        width: 100%;
+        height: 70vh;
+        text-align: center;
+        order: 1;
+    }
+
+    .collection button {
+        width: fit-content;
+    }
+
+    .new {
+        background: #000000;
+        background-size: cover;
+        height: fit-content;
+        display: flex;
+    }
+
+    .new h1 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .watch p {
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .new .hr1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .new .total {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: fit-content;
+    }
+
+    /* .new .upper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    .new .lower {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    } */
+    .new .upper,
+    .new .lower {
+        display: none;
+    }
+
+    .new .total .square {
+        display: block;
+    }
+
+    .new .total .image {
+        display: block;
+    }
+
+    .watch img {
+        width: 100%;
+    }
+
+    .brands {
+        height: fit-content;
+        background: #0F0F0F;
+        display: flex;
+    }
+
+    .brands .jewelry {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .jewelry .brand {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .jewelry h1 {
+        padding-top: 30px;
+    }
+
+    .jewelry .hr3 {
+        width: 120px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+        margin-top: 30px;
+    }
+
+    .footer {
+        background-image: url(./Rectangle\ 15.svg);
+        background-size: cover;
+        background-position: center;
+        height: fit-content;
+        display: flex;
+    }
+
+    .footer .info {
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .info .shop {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 33%;
+        text-align: center;
+        padding-right: 30px;
+    }
+
+    .info .categories {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 33%;
+    }
+
+    .categories .bracelets a {
+        width: fit-content;
+    }
+
+    .bracelets .watches {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .bracelets.cufflinks {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .info .send {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 33%;
+    }
+
+    .send .join {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .join>a {
+        margin-top: 10px;
+    }
+
+}
